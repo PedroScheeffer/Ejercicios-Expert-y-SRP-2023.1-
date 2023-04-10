@@ -21,3 +21,4 @@ más de una línea de código
 
 ## Parte 2
 Realiza todas las modificaciones que creas necesarias para que el código cumpla con el principio SRP.
+![Untitled-2023-04-10-1915](https://user-images.githubusercontent.com/127800652/231010920-3694f775-e458-4404-8418-9bc459aef53c.svg)
