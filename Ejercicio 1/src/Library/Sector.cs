@@ -21,7 +21,7 @@ namespace SRP
         public void shelveBook(Book book, string nombreShelveAGuardar){
             foreach (var shelve in shelves)
             {
-                if(shelve.name == "nombreShelveAGuardar"){
+                if(shelve.name == nombreShelveAGuardar){
                     shelve.addBook(book);
                 }
             }

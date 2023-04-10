@@ -45,7 +45,7 @@ namespace SRP
         {
             foreach (var book in books)
             {
-                if(book.Title == entrada){
+                if(book.Title.Equals(entrada)){
                     return book;
                 }
             }   

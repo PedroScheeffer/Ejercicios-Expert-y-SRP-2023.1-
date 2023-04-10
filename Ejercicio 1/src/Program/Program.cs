@@ -16,8 +16,15 @@ namespace SRP
             sectorA.addShelve(estante7);
             sectorA.shelveBook(book1,"7");
             sectorA.shelveBook(book2,"3");
-            Book libro = sectorA.getBookInteractivo();
-            Console.WriteLine(libro.Author);
+            var libro = sectorA.getBookInteractivo();
+            if(libro == null){
+                Console.WriteLine("El libro es null");
+            }
+            else
+            {
+                Console.WriteLine(libro.Author);
+            }
+
             //book1.ShelveBook("A","7");
             //book2.ShelveBook("B","3");
             
