@@ -17,7 +17,8 @@ namespace SRP
             sectorA.shelveBook(book1,"7");
             sectorA.shelveBook(book2,"3");
             var libro = sectorA.getBookInteractivo();
-            if(libro == null){
+            if(libro == null)
+            {
                 Console.WriteLine("El libro es null");
             }
             else
