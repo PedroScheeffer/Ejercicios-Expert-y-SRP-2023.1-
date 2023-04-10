@@ -18,6 +18,8 @@ namespace SRP
             this.Code = code;
         }
 
+        // Esto puede ser su propia clase
+        // Se puede separar en Shelve y Sector
         public void ShelveBook(String sector, String shelve)
         {
             this.LibrarySector = sector;
