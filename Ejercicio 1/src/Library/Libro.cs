@@ -8,8 +8,6 @@ namespace SRP
         public string Title { get ; }
         public string Author { get ; }
         public string Code { get ;  }
-        public string LibrarySector { get ; set; }
-        public string LibraryShelve { get ; set; }
 
         public Book(String title, String author, String code)
         {
@@ -20,11 +18,12 @@ namespace SRP
 
         // Esto puede ser su propia clase
         // Se puede separar en Shelve y Sector
+        /*
         public void ShelveBook(String sector, String shelve)
         {
             this.LibrarySector = sector;
             this.LibraryShelve = shelve;
         }
-
+        */
     }
 }
