@@ -19,7 +19,8 @@ Para el ejercicio se pide
 Esta todo en una sola clase eso rompe con SRP, ya que esta clase tiene multiple responsabilidades, como tener la información del paciente, doctor y lugar.
 #### 🧐 Parte 2
 **Realizar las CRC correspondientes.**
-![Drawing 2023-04-16 17 20 24 excalidraw](https://user-images.githubusercontent.com/127800652/232345062-94f0a777-b8ec-4871-8416-e3d71be1eb40.svg)
+![Drawing 2023-04-16 17 20 24 excalidraw](https://user-images.githubusercontent.com/127800652/232345679-ad3be91c-9810-43c8-bb25-2da223660680.svg)
+
 
 #### 👩‍💻 Parte 3
 **Aplique patrónes/principios según su crítica.**
