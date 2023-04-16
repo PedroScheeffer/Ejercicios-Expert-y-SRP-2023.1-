@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace SRP
 {
+    /*
+        Se encarga de la los Sectores, creando y removiendo shelves
+    */
     public class Sector
     {
         private List<Shelve> shelves = new List<Shelve>();

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace SRP
 {
+    /*
+        Se encarga solo de los Shelves
+    */
     public class Shelve
     {
         private List<Book> books = new List<Book>();
